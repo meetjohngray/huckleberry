@@ -5,8 +5,47 @@
 
 html,
 body {
+  height: 100%;
   margin: 0;
   padding: 0;
+  font-size: 1rem;
 }
 
 /* Add styles here! */
+h1 {
+  font-size: 2rem;
+}
+strong {
+  color: hsl(160deg, 100%, 30%); 
+}
+
+main {
+  background-color: hsl(0deg, 0%, 40%);
+  border-top: 8px solid hsl(0deg, 0%, 60%);
+  padding-top: 24px;
+  height: 100%;
+}
+.max-width-wrapper {
+  margin: 48px 128px
+}
+
+.intro-chunk {
+  padding-left: 16px;
+}
+
+.card {
+  background-color: hsl(0deg, 0%, 100%);
+  border-bottom: 8px solid hsl(0deg, 0%, 60%);
+  padding: 4px 16px;
+}
+
+.indented-heading {
+  font-size: 1.25rem;
+  display: inline-block;
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
+  margin: 8px 0 0 -32px;
+  padding: 8px 32px;
+}
+
+
